@@ -1,0 +1,6 @@
+url: https://github.com/yuwang/dsh-plugins-reload
+name: yuwang/dsh-plugins-reload
+category: dev
+description:
+  en: "One-click plugin reload: a Plugin reload tab in the Plugins page, plus a reload_plugins tool the model can call, re-applies changed plugin code and settings without restarting dsh, so running sessions and jobs keep going. Only the plugins whose files really changed restart, code mounted inside an agent preset is swapped too and open sessions follow the new revision, and the report lists the elapsed time, the plugins it reloaded and any change a reload could not apply."
+  zh: "一键重载插件：插件页里的「插件重载」标签页，加上模型可调用的 reload_plugins 工具，改完插件代码和配置点一下就生效，不重启 dsh，正在跑的会话和任务不中断。只有文件真的改过的插件才会重启；挂在 agent preset 里的代码同样会被替换，开着的会话跟着切到新版本；结果里列出耗时、重载了哪些插件，以及这次重载不了、需要重启的改动。"
